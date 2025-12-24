@@ -14,26 +14,17 @@ th, td {
     text-align: center;
 }
 
-/* Header color */
-tr:first-child, tr:nth-child(2) {
-    background-color: #ffa500; /* Orange header */
+/* Header row */
+tr:nth-child(1) {
+    background-color: #ffa500; /* Orange */
     color: white;
 }
 
-/* Ram rows (3rd and 4th row) */
-tr:nth-child(3),
-tr:nth-child(4) {
-    background-color: #d1e7dd; /* Light green */
+/* Alternating row colors for body */
+tr:nth-child(even):not(:first-child) {
+    background-color: #f2f2f2; /* Light grey for even rows */
 }
 
-/* Sita rows (5th and 6th row) */
-tr:nth-child(5),
-tr:nth-child(6) {
-    background-color: #cff4fc; /* Light blue */
-}
-
-/* Hari rows (7th and 8th row) */
-tr:nth-child(7),
-tr:nth-child(8) {
-    background-color: #f8d7da; /* Light red/pink */
+tr:nth-child(odd):not(:first-child) {
+    background-color: #ffffff; /* White for odd rows */
 }
