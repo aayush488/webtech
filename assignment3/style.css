@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header color */
+tr:first-child, tr:nth-child(2) {
+    background-color: #ffa500; /* Orange header */
+    color: white;
+}
+
+/* Ram rows (3rd and 4th row) */
+tr:nth-child(3),
+tr:nth-child(4) {
+    background-color: #d1e7dd; /* Light green */
+}
+
+/* Sita rows (5th and 6th row) */
+tr:nth-child(5),
+tr:nth-child(6) {
+    background-color: #cff4fc; /* Light blue */
+}
+
+/* Hari rows (7th and 8th row) */
+tr:nth-child(7),
+tr:nth-child(8) {
+    background-color: #f8d7da; /* Light red/pink */
+}
